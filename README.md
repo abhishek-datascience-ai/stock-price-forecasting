@@ -55,7 +55,7 @@ Features used:
 - MAPE
 
 ## Project Structure
-```text
+
 stock-price-forecasting/
 ├── app/
 ├── data/
