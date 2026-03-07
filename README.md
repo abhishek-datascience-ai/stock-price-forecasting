@@ -55,7 +55,8 @@ Features used:
 - MAPE
 
 ## Project Structure
-```text
+
+```
 stock-price-forecasting
 │
 ├── app
@@ -66,29 +67,27 @@ stock-price-forecasting
 │   └── processed
 │
 ├── models
-│
 ├── notebooks
-│
 ├── src
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Results
-| Model      |  MAE  |  RMSE  |  MAPE  |
-| ---------- |-------|--------|--------|
-| Baseline   | 97.81 | 126.59 |  2.64  |
-| ARIMA      | 455.70| 508.35 | 12.89  |
-| Auto ARIMA | 459.86| 510.43 | 13.07  |
-| LSTM       | 72.89 | 96.05  | 1.95   |
-| Prophet    | 822.19| 1025.96| 24.85  |
+
+| Model       | MAE   | RMSE   | MAPE |
+|------------|------|-------|------|
+| Baseline   | 97.81 | 126.59 | 2.64 |
+| ARIMA      | 455.70 | 508.35 | 12.89 |
+| Auto ARIMA | 459.86 | 510.43 | 13.07 |
+| LSTM       | 72.89 | 96.05 | 1.95 |
+| Prophet    | 822.19 | 1025.96 | 24.85 |
 
 ## Best Model
 
-LSTM achieved the lowest RMSE and performed best among all tested models.
-
----
+**LSTM achieved the lowest RMSE and performed best among all tested models.**
 
 ## Streamlit App
 
@@ -98,7 +97,7 @@ Run the app locally:
 
 ```bash
 streamlit run app/streamlit_app.py
-
+```
 ## Installation
 
 Clone the repository:
@@ -106,12 +105,12 @@ Clone the repository:
 ```bash
 git clone <your-github-repo-link>
 cd stock-price-forecasting
-
+```
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Key Learnings
 
 - Time series preprocessing
@@ -121,7 +120,6 @@ pip install -r requirements.txt
 - Forecast evaluation
 - Streamlit deployment
 
----
 
 ## Future Improvements
 
@@ -130,8 +128,6 @@ pip install -r requirements.txt
 - Hyperparameter tuning
 - Advanced deep learning architectures
 - Live market data integration
-
----
 
 ## Author
 
