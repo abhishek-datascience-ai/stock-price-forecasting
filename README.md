@@ -56,12 +56,21 @@ Features used:
 
 ## Project Structure
 ```text
-stock-price-forecasting/
-├── app/
-├── data/
-├── models/
-├── notebooks/
-├── src/
+stock-price-forecasting
+│
+├── app
+│   └── streamlit_app.py
+│
+├── data
+│   ├── raw
+│   └── processed
+│
+├── models
+│
+├── notebooks
+│
+├── src
+│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
