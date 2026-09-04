@@ -1,0 +1,39 @@
+{
+  "evaluation_rows": 395,
+  "start_date": "2024-05-30",
+  "end_date": "2025-12-30",
+  "split_method": "chronological 80/20",
+  "forecast_protocol": "fixed-origin multi-step without test-period updates",
+  "metrics": [
+    {
+      "Model": "Baseline",
+      "MAE": 459.862899,
+      "RMSE": 510.432456,
+      "MAPE (%)": 13.078723
+    },
+    {
+      "Model": "ARIMA",
+      "MAE": 459.778087,
+      "RMSE": 510.212091,
+      "MAPE (%)": 13.073065
+    },
+    {
+      "Model": "Auto ARIMA",
+      "MAE": 643.527398,
+      "RMSE": 784.310908,
+      "MAPE (%)": 19.216501
+    },
+    {
+      "Model": "LSTM",
+      "MAE": 406.825043,
+      "RMSE": 465.095067,
+      "MAPE (%)": 11.023744
+    },
+    {
+      "Model": "Prophet",
+      "MAE": 839.992181,
+      "RMSE": 1053.246161,
+      "MAPE (%)": 25.421005
+    }
+  ]
+}

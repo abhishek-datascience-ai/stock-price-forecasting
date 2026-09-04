@@ -1,0 +1,11 @@
+-r requirements.txt
+
+jupyterlab==4.6.3
+pmdarima==2.1.1
+prophet==1.4.0
+pytest==9.0.3
+scikit-learn==1.8.0
+seaborn==0.13.2
+statsmodels==0.15.0
+tensorflow==2.21.0
+yfinance==1.7.0

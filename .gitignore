@@ -6,7 +6,12 @@ __pycache__/
 
 # Virtual Environment
 venv/
-.env/
+.venv/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
 
 # Jupyter
 .ipynb_checkpoints/
@@ -20,6 +25,9 @@ Thumbs.db
 
 # Model checkpoints
 *.keras
+*.h5
+*.pkl
+!models/lstm_model.keras
 
 # Temporary files
 *.log
